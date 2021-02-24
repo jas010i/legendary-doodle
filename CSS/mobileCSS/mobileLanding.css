@@ -19,8 +19,17 @@
     }
 
 
+    .header-video {
+        display: none;
+    }
 
+    .landing-branch {
+        width: 100%;
+    }
 
+    .top {
+        display: none;
+    }
 
 
     .web {
@@ -100,10 +109,14 @@
 
     #quote-btn {
         font-size: 5vw;
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        text-align: center;
+        margin: 5% 0 5% 25%;
     }
 
+    .quote-btn2 {
+        margin-left: 25%;
+    }
 
 .scroll-down {
     display: none;

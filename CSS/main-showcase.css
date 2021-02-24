@@ -27,8 +27,9 @@ html, body {
       z-index: 9999;
       width: 100%;
       overflow: hidden;
-      background-color: rgba(0, 0, 0, 0.7);
-  }
+      background-color: rgba(68, 54, 54, .5);
+    }
+
 
   .header-logo-text > h1 {
       text-align: center;
@@ -209,14 +210,13 @@ html, body {
   }
 
   svg {
-    transition: .3s ease-in-out;
+    transition: .6s ease-in-out;
   }
 
   svg:hover {
-    transform: scale(1.1);
+    transform: translateY(-15%);
+    cursor: pointer;
   }
-
-
 
 
   #title {

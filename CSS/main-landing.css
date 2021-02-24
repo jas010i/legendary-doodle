@@ -2,11 +2,30 @@
 
 
 .landing {
-    width: 100%;
-    margin:10% 0 10% 0;
+    margin:10% 0 0 0;
     font-size: 1.5vw;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(24, 24, 24);
+}
+
+.landing-branch {
+    width: 40%;
+    display: inline-block;
+}
+
+.header-video {
+    width: 40%;
+    display: inline-block;
+    margin: 0 0 0 10%;
+}
+
+.header-video > img {
+    width: 100%;
+    filter: hue-rotate(225deg);
+}
+
+.header-video > img:hover {
+    transform: scale(1);
 }
 
 .landing-branch > h1 {
@@ -22,6 +41,8 @@
 .landing-services {
     width: 100%;
     text-align: center;
+    padding: 2% 0 2% 0;
+    background-color: rgb(68, 54, 54);
 }
 
 .web {
@@ -51,36 +72,41 @@
 .web > p {
     font-size: 1.2vw;
     font-family: 'Titillium Web', sans-serif;
-    color: rgb(24, 24, 24);
+    color: rgb(255, 210, 210);
     padding: 0;
     margin: 0;
 }
 .web2 > p {
     font-size: 1.2vw;
     font-family: 'Titillium Web', sans-serif;
-    color: rgb(24, 24, 24);
+    color: rgb(255, 210, 210);
     padding: 0;
     margin: 0;
 }
 .web3 > p {
     font-size: 1.2vw;
     font-family: 'Titillium Web', sans-serif;
-    color: rgb(24, 24, 24);
+    color: rgb(255, 210, 210);
     padding: 0;
     margin: 0;
 }
 .web4 > p {
     font-size: 1.2vw;
     font-family: 'Titillium Web', sans-serif;
-    color: rgb(24, 24, 24);
+    color: rgb(255, 210, 210);
     padding: 0;
     margin: 0;
 }
 
+.landing-btn {
+    width: 100%;
+    background-color: rgb(68, 54, 54);
+    padding: 0 0 10% 0;
+}
 
 #quote-btn {
     width: 20%;
-    margin: 5% 0 0 40%;
+    margin: 0 0 2% 40%;
     padding: 1%;
     background-color: rgb(249, 73, 85);
     color: white;
@@ -92,6 +118,10 @@
 }
 
 #quote-btn:hover {
-    transform: scale(1.1);
+    transform: translateY(-15%);
+    box-shadow: -4px 26px 28px -13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 26px 28px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 26px 28px -13px rgba(0,0,0,0.75);
+    background-color: rgb(255, 91, 101);
     cursor: pointer;
 }

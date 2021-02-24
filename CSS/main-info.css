@@ -7,10 +7,12 @@
     margin: 1% 0 10% 45%;
     width: 10%;
     text-align: center;
+    background-color: rgba(50, 50, 50, 0);
 }
 
 .info-container {
-    margin: 5% 0 0 0;
+    margin: 0% 0 5% 0;
+    padding: 5% 0 0 0;
     background-color: rgb(24, 24, 24);
 }
 
@@ -18,7 +20,7 @@
     font-family: 'Titillium Web', sans-serif;    font-size: 2.5vw;
     color: rgb(201, 201, 201);
     font-weight: 700;
-    padding: 10% 0 0 0;
+    padding: 5% 0 0 0;
     margin: 0 0 0 5%;
 }
 
@@ -33,9 +35,23 @@
 
 
 
+.top {
+  width: 5%;
+  position: fixed;
+  bottom: 10%;
+  padding: 2% 2% 2% 1%;
+  margin-left: 96%;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(68, 54, 54);
+  border: 2px dashed rgb(187, 165, 165);
+}
 
-
-
+.top > a {
+  text-decoration: none;
+  color: rgb(249, 73, 85);
+  font-family: 'Titillium Web', sans-serif;
+}
 
 
 
