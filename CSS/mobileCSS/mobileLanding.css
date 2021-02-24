@@ -119,4 +119,38 @@
 }
 
 
+
+.container {
+    display: none;
+}
+
+
+
+
+
+
+.mobilefooter {
+    width: 100%;
+    display: block;
+    background-color: black;
+}
+
+.mobilefooter > a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 10% 0 10% 0;
+    font-size: 5vw;
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+footer {
+    display: none;
+}
+
+
+
 }
