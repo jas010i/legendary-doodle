@@ -115,6 +115,8 @@
     font-size: 1.1vw;
     font-family: 'Titillium Web', sans-serif;
     transition: .6s ease-in-out;
+    display: block;
+    text-align: center;
 }
 
 #quote-btn:hover {
