@@ -36,7 +36,7 @@ html, body {
       color: rgb(255, 255, 255);
       text-rendering: geometricPrecision;
       font-size: 1.3vw;
-      padding: 1% 0 0 0;
+      padding: 0 0 0 0;
       font-weight: 200;
   }
 
