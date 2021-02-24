@@ -13,7 +13,7 @@ html, body {
     background-color: rgb(61, 61, 61);
     background-image: url('../Images/background.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
     margin: 0;
