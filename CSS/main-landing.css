@@ -88,7 +88,7 @@
     border-radius: 6px;
     font-size: 1.1vw;
     font-family: 'Titillium Web', sans-serif;
-    transition: .3s ease-in-out;
+    transition: .6s ease-in-out;
 }
 
 #quote-btn:hover {
