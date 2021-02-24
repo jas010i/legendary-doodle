@@ -79,28 +79,28 @@
     .web > p {
         font-size: 6vw;
         font-family: 'Titillium Web', sans-serif;
-        color: rgb(24, 24, 24);
+        color: rgb(255, 210, 210);
         padding: 0;
         margin: 0;
     }
     .web2 > p {
         font-size: 6vw;
         font-family: 'Titillium Web', sans-serif;
-        color: rgb(24, 24, 24);
+        color: rgb(255, 210, 210);
         padding: 0;
         margin: 0;
     }
     .web3 > p {
         font-size: 6vw;
         font-family: 'Titillium Web', sans-serif;
-        color: rgb(24, 24, 24);
+        color: rgb(255, 210, 210);
         padding: 0;
         margin: 0;
     }
     .web4 > p {
         font-size: 6vw;
         font-family: 'Titillium Web', sans-serif;
-        color: rgb(24, 24, 24);
+        color: rgb(255, 210, 210);
         padding: 0;
         margin: 0;
     }
@@ -146,7 +146,7 @@
 .mobilefooter {
     width: 100%;
     display: block;
-    background-color: black;
+    background-color: rgb(24, 24, 24);
 }
 
 .mobilefooter > a {
@@ -155,7 +155,7 @@
     text-align: center;
     margin: 10% 0 10% 0;
     font-size: 5vw;
-    color: white;
+    color: rgb(249, 73, 85);
     text-decoration: none;
     font-family: 'Titillium Web', sans-serif;
 }
