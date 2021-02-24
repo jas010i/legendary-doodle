@@ -10,12 +10,13 @@
 }
 
 .info-container {
-    margin: 5% 0 10% 0;
+    margin: 5% 0 0 0;
+    background-color: rgb(24, 24, 24);
 }
 
 .packages > h1{
     font-family: 'Titillium Web', sans-serif;    font-size: 2.5vw;
-    color: rgb(24, 24, 24);
+    color: rgb(201, 201, 201);
     font-weight: 700;
     padding: 10% 0 0 0;
     margin: 0 0 0 5%;
@@ -23,9 +24,9 @@
 
 .packages > p {
     font-family: 'Titillium Web', sans-serif;    font-size: 1.5vw;
-    color: rgb(24, 24, 24);
+    color: rgb(201, 201, 201);
     font-weight: 400;
-    padding-bottom: 0;
+    padding-bottom: 10%;
 }
 
 
