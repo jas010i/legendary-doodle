@@ -38,18 +38,19 @@
 .top {
   width: 5%;
   position: fixed;
-  bottom: 10%;
+  bottom: 25%;
   padding: 2% 2% 2% 1%;
   margin-left: 96%;
   text-decoration: none;
   text-align: center;
-  background-color: rgb(68, 54, 54);
-  border: 2px dashed rgb(187, 165, 165);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px dashed #E34234;
 }
 
 .top > a {
   text-decoration: none;
-  color: rgb(249, 73, 85);
+  color: rgb(255, 255, 255);
+  font-weight: 900;
   font-family: 'Titillium Web', sans-serif;
 }
 

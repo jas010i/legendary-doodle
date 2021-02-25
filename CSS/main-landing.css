@@ -42,7 +42,7 @@
     width: 100%;
     text-align: center;
     padding: 2% 0 2% 0;
-    background-color: rgb(68, 54, 54);
+    background-color: #222E3E;
 }
 
 .web {
@@ -100,7 +100,7 @@
 
 .landing-btn {
     width: 100%;
-    background-color: rgb(68, 54, 54);
+    background-color: #222E3E;
     padding: 1% 0 10% 0;
 }
 
@@ -108,7 +108,7 @@
     width: 20%;
     margin: 0 0 2% 40%;
     padding: 1%;
-    background-color: rgb(249, 73, 85);
+    background-color: #E34234;
     color: white;
     border: 1px solid white;
     border-radius: 6px;
@@ -124,7 +124,7 @@
     box-shadow: -4px 26px 28px -13px rgba(0,0,0,0.75);
     -webkit-box-shadow: -4px 26px 28px -13px rgba(0,0,0,0.75);
     -moz-box-shadow: -4px 26px 28px -13px rgba(0,0,0,0.75);
-    background-color: rgb(255, 91, 101);
+    background-color: #da2e1f;
     cursor: pointer;
 }
 
