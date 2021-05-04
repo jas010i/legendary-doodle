@@ -28,6 +28,7 @@
 <link href="CSS/main-showcase.css" rel="stylesheet" type="text/css">
 <link href="CSS/main-info.css" rel="stylesheet" type="text/css">
 <link href="CSS/main-landing.css" rel="stylesheet" type="text/css">
+<link href="CSS/quoteCSS/quote-main.css" rel="stylesheet" type="text/css">
 <link href="CSS/mobileCSS/mobileLanding.css" rel="stylesheet" type="text/css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -55,8 +56,7 @@
 
 
 
-
-
+<body>
 
 
 <div class="banner" data-aos="fade-down" data-aos-duration="1000">
@@ -73,5 +73,114 @@
 
 </div>
 
-<div class="null" id="section0"></div>
 
+<!--
+<div class="null" id="section0"></div>
+-->
+
+
+
+<div class="q-main" id="q-main">
+
+
+            <div id="q-main-header" data-aos="fade-right" data-aos-duration="1000">
+                <h1>
+                    Request a Quote
+                </h1>
+                
+                <p>
+                    Like all projects and great works of art we must start with the foundation.<br><br>
+                    Tell me a little about yourself. What are your interests, your hobbies, or even your favorite movie? It's the little details that help shape 
+                    who we are as people. The more we can understand who you are and your likes and dislikes the more we can determine exactly what you want.<br><br>
+
+                </p>
+
+
+            </div>
+
+
+            <div id="q-textinput" data-aos="fade-up" data-aos-duration="1000">
+
+                <form id="q-form">
+
+                    <h1 id="q-form-header">Let's get started!</h1>
+
+                    <label for="name" id="name">Preferred Name*</label><br>
+                    <input type="text" id="name" placeholder="Your preferred name here" minlength="3" maxlength="20" required><br>
+                    <label for="email" id="email">Email*</label><br>
+                    <input type="email" id="email" placeholder="Your email here" autocomplete="email" required><br>
+                    <!--<label for="locality" id="locality">Are you located in San Antonio?</label>
+                    <input type="checkbox"-->
+                    <label for="about" id="about">Tell us who you are*</label>
+                    <textarea id="about" required minlength="20" maxlength="500" placeholder="Tell us your story. . ."></textarea>
+                    <input type="submit" id="q-submit" value="Submit" style="width: 30%; color: #F2F1E8; padding: 0;">
+
+
+                </form>
+
+
+
+            </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mobilefooter">
+
+    <a href="contact.html">Contact</a>
+    <a href="service.html">Services</a>
+    <a href="privacy.html">Privacy Notice</a>
+
+</div>
+
+
+
+
+<footer>
+
+    <div class="footer-container-left">
+        <a href="contact.html" style="padding-right: 1%;">Contact</a>
+        <p style="text-align: center; color: #E34234; padding: 0; font-size: 2vw;"> | </p>
+        <a href="service.html" style="padding-left: 1%;">Services</a>
+    </div>
+
+    <div class="footer-container-right">
+        <a id="privacy" href="privacy.html">Privacy</a>
+    </div>
+
+</footer>
+
+
+
+</body>
+
+
+
+
+<script>
+    AOS.init();
+</script>
+
+
+</html>
