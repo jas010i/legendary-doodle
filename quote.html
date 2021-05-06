@@ -59,6 +59,8 @@
 <body>
 
 
+
+
 <div class="banner" data-aos="fade-down" data-aos-duration="1000">
 
     <div class="header-logo-text">
@@ -72,6 +74,11 @@
     </div>
 
 </div>
+
+
+
+
+
 
 
 <!--
@@ -101,19 +108,59 @@
 
             <div id="q-textinput" data-aos="fade-up" data-aos-duration="1000">
 
-                <form id="q-form">
+                <form id="q-form" action="../legendary-doodle/PHP/quoteRequest.php" method="POST">
 
-                    <h1 id="q-form-header">Let's get started!</h1>
 
-                    <label for="name" id="name">Preferred Name*</label><br>
+                    <!--
+                        form id's for php are:
+                            - name
+                            - email
+                            - about
+                            
+                            - locality
+
+                            - q-submit
+                    -->
+
+
+
+
+
+
+                    <h1 id="q-form-header">Let's get started!<br>
+                                <span style="font-size: 1vw; color:#E34234;">"*" required</span>
+                    </h1>
+
+                    <label for="name" id="name">Preferred Name 
+                        <span style="color: #E34234;">*</span>
+                    </label><br><br>
                     <input type="text" id="name" placeholder="Your preferred name here" minlength="3" maxlength="20" required><br>
-                    <label for="email" id="email">Email*</label><br>
+                
+
+                    <label for="email" id="email">Email 
+                        <span style="color: #E34234;">*</span>
+                    </label><br><br>
                     <input type="email" id="email" placeholder="Your email here" autocomplete="email" required><br>
-                    <!--<label for="locality" id="locality">Are you located in San Antonio?</label>
-                    <input type="checkbox"-->
-                    <label for="about" id="about">Tell us who you are*</label>
-                    <textarea id="about" required minlength="20" maxlength="500" placeholder="Tell us your story. . ."></textarea>
-                    <input type="submit" id="q-submit" value="Submit" style="width: 30%; color: #F2F1E8; padding: 0;">
+                    
+                    
+                    <label for="locality" id="locality">Are you located in the San Antonio area?
+                        <span style="color: #E34234;">*</span>
+                    </label><br><br>
+                        <select id="locality" required>
+                            <option value="yes20">Yes, and I love it!</option>
+                            <option value="no15">No, but I'm a San Antonian at heart!</option>
+                            <option value="unsure12">I am not, but I hear it's a great place!</option>
+                            <option value="nonTexan10">I'm not from Texas, but I sure wish I was!</option>
+                        </select><br>
+                    
+
+                    <label for="about" id="about">Tell us who you are, and what your vision looks like 
+                        <span style="color: #E34234;">*</span>
+                    </label><br><br>
+                    <textarea id="about" required minlength="20" maxlength="500" placeholder="Remember we are here to help, so don't be afraid! Tell us everything! &#128516;"></textarea>
+                    
+                    
+                    <button id="q-submit" style="width: 30%; color: #F2F1E8; padding: 0;">Submit</button>
 
 
                 </form>
@@ -173,7 +220,13 @@
 
 
 
+
+
+
 </body>
+
+
+
 
 
 

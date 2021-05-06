@@ -46,6 +46,14 @@ null color pallette {
 
 
 
+
+
+/******* FORM FOR QUOTE *******/
+
+
+
+
+
 #q-textinput {
   width: 100%;
   padding: 5% 0 5% 0;
@@ -69,9 +77,10 @@ form#q-form > label {
   color: #F2F1E8;
   font-size: 1.5vw;
   padding: 0 0 0 0;
+  margin-bottom: 2%;
 }
 
-form#q-form > input, textarea {
+form#q-form > input, textarea, button, select {
   font-family: 'Titillium Web', sans-serif;
   color: #F2F1E8;
   font-size: 1.5vw;
@@ -101,7 +110,7 @@ textarea {
   color: #222E3E;
 }
 
-input#q-submit {
+button#q-submit {
   background-color: #E34234;
   color: #F2F1E8;
   font-weight: 600;
@@ -109,7 +118,7 @@ input#q-submit {
   transition:  .7s ease-in-out;
 }
 
-input#q-submit:hover {
+button#q-submit:hover {
   cursor: pointer;
   transform: translateY(-10%);
   background-color: #e41c0a;
