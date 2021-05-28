@@ -72,6 +72,7 @@ $mysqli = new mysqli("localhost", "iridescXnt343_auth_user", "$6927=Jas010i.s031
 
 if ($mysqli === false){
   die("ERROR: Could not connect. " . $mysqli->connect_error);
+}
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -83,13 +84,13 @@ $local = $_POST['locality'];
                                       textBoxAbout, locality)
                     VALUES ('$name', '$email', '$about', '$locality')";
 
-if($mysqli->query($sql) === true){
-  echo "Thank you for your submission.";
-} else{
-  echo "ERROR: Could not submit form data. " . $mysqli->error;
-}
+    if($mysqli->query($sql) === true){
+      echo "Thank you for your submission.";
+    } else{
+      echo "ERROR: Could not submit form data. " . $mysqli->error;
+    }
 
-$mysqli->close();
+    $mysqli->close();
 
 
 
